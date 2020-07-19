@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Vivo.Common.Before.Dll</id>
+    <version>1.0.0</version>
+    <title>Vivo.Common.Before.Dll</title>
+    <authors>Telefonica</authors>
+    <owners>Telefonica</owners>
+    <description>Vivo.Common.Before.Dll</description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="bin\Release\*.dll" target="lib" />
+  </files>
+</package>

@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico.csproj": {}
+  },
+  "projects": {
+    "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\common-before-dll\\Vivo.Common.Before\\Vivo.Common.Before\\Vivo.Common.Before.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\common-before-dll\\Vivo.Common.Before\\Vivo.Common.Before\\Vivo.Common.Before.csproj",
+        "projectName": "Vivo.Common.Before",
+        "projectPath": "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\common-before-dll\\Vivo.Common.Before\\Vivo.Common.Before\\Vivo.Common.Before.csproj",
+        "packagesPath": "C:\\Users\\Inocentini\\.nuget\\packages\\",
+        "outputPath": "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\common-before-dll\\Vivo.Common.Before\\Vivo.Common.Before\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Inocentini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.129.178.173:8082/repository/rpa-componentes-nuget/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "System.Security.Cryptography.X509Certificates": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
+            "Vivo.Common.Fwk.Dll": {
+              "target": "Package",
+              "version": "[1.0.34, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico.csproj",
+        "projectName": "Vivo.OV_PendenciamentoAutomatico",
+        "projectPath": "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico.csproj",
+        "packagesPath": "C:\\Users\\Inocentini\\.nuget\\packages\\",
+        "outputPath": "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Inocentini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.129.178.173:8082/repository/rpa-componentes-nuget/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\common-before-dll\\Vivo.Common.Before\\Vivo.Common.Before\\Vivo.Common.Before.csproj": {
+                "projectPath": "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\common-before-dll\\Vivo.Common.Before\\Vivo.Common.Before\\Vivo.Common.Before.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Vivo.Common.Fwk.Dll": {
+              "target": "Package",
+              "version": "[1.0.38, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

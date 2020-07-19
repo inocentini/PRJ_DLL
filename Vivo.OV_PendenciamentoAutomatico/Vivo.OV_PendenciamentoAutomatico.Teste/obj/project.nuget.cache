@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "fjZ12nOmxtY7fs9MGf9nUCnk2xLh5Z/3PYZ9aohp51eas0seu8KNTDEvnyllvOQVezm9JRcGj7mnLLVwq6c8PQ==",
+  "success": true,
+  "projectFilePath": "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico.Teste\\Vivo.OV_PendenciamentoAutomatico.Teste.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Inocentini\\.nuget\\packages\\mstest.testadapter\\2.1.1\\mstest.testadapter.2.1.1.nupkg.sha512",
+    "C:\\Users\\Inocentini\\.nuget\\packages\\mstest.testframework\\2.1.1\\mstest.testframework.2.1.1.nupkg.sha512",
+    "C:\\Users\\Inocentini\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0\\system.security.cryptography.algorithms.4.3.0.nupkg.sha512",
+    "C:\\Users\\Inocentini\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0\\system.security.cryptography.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\Inocentini\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\system.security.cryptography.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Inocentini\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.2\\system.security.cryptography.x509certificates.4.3.2.nupkg.sha512",
+    "C:\\Users\\Inocentini\\.nuget\\packages\\vivo.common.fwk.dll\\1.0.38\\vivo.common.fwk.dll.1.0.38.nupkg.sha512"
+  ],
+  "logs": []
+}

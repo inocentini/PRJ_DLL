@@ -1,0 +1,785 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "System.Security.Cryptography.Algorithms/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.Primitives": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Cryptography.Algorithms.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Cryptography.Algorithms.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net461/System.Security.Cryptography.Algorithms.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Cryptography.Encoding/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Security.Cryptography.Encoding.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Security.Cryptography.Encoding.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net46/System.Security.Cryptography.Encoding.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Security.Cryptography.Primitives/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Security.Cryptography.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Security.Cryptography.Primitives.dll": {}
+        }
+      },
+      "System.Security.Cryptography.X509Certificates/4.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.Algorithms": "4.3.0",
+          "System.Security.Cryptography.Encoding": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Cryptography.X509Certificates.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Cryptography.X509Certificates.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.X509Certificates.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net461/System.Security.Cryptography.X509Certificates.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Vivo.Common.Fwk.Dll/1.0.38": {
+        "type": "package",
+        "compile": {
+          "lib/AutoItX3.Assembly.dll": {},
+          "lib/AutoItX3.dll": {},
+          "lib/AutoItX3_x64.dll": {},
+          "lib/CsvHelper.dll": {},
+          "lib/Direct.Shared.dll": {},
+          "lib/DotNetZip.dll": {},
+          "lib/EPPlus.dll": {},
+          "lib/Infragistics4.Shared.v15.1.dll": {},
+          "lib/Infragistics4.Win.Misc.v15.1.dll": {},
+          "lib/Infragistics4.Win.UltraWinGrid.v15.1.dll": {},
+          "lib/Infragistics4.Win.v15.1.dll": {},
+          "lib/Newtonsoft.Json.dll": {},
+          "lib/Oracle.ManagedDataAccess.dll": {},
+          "lib/Renci.SshNet.dll": {},
+          "lib/Selenium.Helper.dll": {},
+          "lib/SeleniumExtras.WaitHelpers.dll": {},
+          "lib/System.ValueTuple.dll": {},
+          "lib/Vivo.Common.Fwk.Dll.dll": {},
+          "lib/WebDriver.Support.dll": {},
+          "lib/WebDriver.dll": {},
+          "lib/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/AutoItX3.Assembly.dll": {},
+          "lib/AutoItX3.dll": {},
+          "lib/AutoItX3_x64.dll": {},
+          "lib/CsvHelper.dll": {},
+          "lib/Direct.Shared.dll": {},
+          "lib/DotNetZip.dll": {},
+          "lib/EPPlus.dll": {},
+          "lib/Infragistics4.Shared.v15.1.dll": {},
+          "lib/Infragistics4.Win.Misc.v15.1.dll": {},
+          "lib/Infragistics4.Win.UltraWinGrid.v15.1.dll": {},
+          "lib/Infragistics4.Win.v15.1.dll": {},
+          "lib/Newtonsoft.Json.dll": {},
+          "lib/Oracle.ManagedDataAccess.dll": {},
+          "lib/Renci.SshNet.dll": {},
+          "lib/Selenium.Helper.dll": {},
+          "lib/SeleniumExtras.WaitHelpers.dll": {},
+          "lib/System.ValueTuple.dll": {},
+          "lib/Vivo.Common.Fwk.Dll.dll": {},
+          "lib/WebDriver.Support.dll": {},
+          "lib/WebDriver.dll": {},
+          "lib/log4net.dll": {}
+        }
+      },
+      "Vivo.Common.Before/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "System.Security.Cryptography.X509Certificates": "4.3.2",
+          "Vivo.Common.Fwk.Dll": "1.0.34"
+        },
+        "compile": {
+          "bin/placeholder/Vivo.Common.Before.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vivo.Common.Before.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "System.Security.Cryptography.Algorithms/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.Primitives": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Cryptography.Algorithms.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net461/System.Security.Cryptography.Algorithms.dll": {}
+        }
+      },
+      "System.Security.Cryptography.Encoding/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Security.Cryptography.Encoding.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net46/System.Security.Cryptography.Encoding.dll": {}
+        }
+      },
+      "System.Security.Cryptography.Primitives/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Security.Cryptography.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Security.Cryptography.Primitives.dll": {}
+        }
+      },
+      "System.Security.Cryptography.X509Certificates/4.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.Algorithms": "4.3.0",
+          "System.Security.Cryptography.Encoding": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Cryptography.X509Certificates.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net461/System.Security.Cryptography.X509Certificates.dll": {}
+        }
+      },
+      "Vivo.Common.Fwk.Dll/1.0.38": {
+        "type": "package",
+        "compile": {
+          "lib/AutoItX3.Assembly.dll": {},
+          "lib/AutoItX3.dll": {},
+          "lib/AutoItX3_x64.dll": {},
+          "lib/CsvHelper.dll": {},
+          "lib/Direct.Shared.dll": {},
+          "lib/DotNetZip.dll": {},
+          "lib/EPPlus.dll": {},
+          "lib/Infragistics4.Shared.v15.1.dll": {},
+          "lib/Infragistics4.Win.Misc.v15.1.dll": {},
+          "lib/Infragistics4.Win.UltraWinGrid.v15.1.dll": {},
+          "lib/Infragistics4.Win.v15.1.dll": {},
+          "lib/Newtonsoft.Json.dll": {},
+          "lib/Oracle.ManagedDataAccess.dll": {},
+          "lib/Renci.SshNet.dll": {},
+          "lib/Selenium.Helper.dll": {},
+          "lib/SeleniumExtras.WaitHelpers.dll": {},
+          "lib/System.ValueTuple.dll": {},
+          "lib/Vivo.Common.Fwk.Dll.dll": {},
+          "lib/WebDriver.Support.dll": {},
+          "lib/WebDriver.dll": {},
+          "lib/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/AutoItX3.Assembly.dll": {},
+          "lib/AutoItX3.dll": {},
+          "lib/AutoItX3_x64.dll": {},
+          "lib/CsvHelper.dll": {},
+          "lib/Direct.Shared.dll": {},
+          "lib/DotNetZip.dll": {},
+          "lib/EPPlus.dll": {},
+          "lib/Infragistics4.Shared.v15.1.dll": {},
+          "lib/Infragistics4.Win.Misc.v15.1.dll": {},
+          "lib/Infragistics4.Win.UltraWinGrid.v15.1.dll": {},
+          "lib/Infragistics4.Win.v15.1.dll": {},
+          "lib/Newtonsoft.Json.dll": {},
+          "lib/Oracle.ManagedDataAccess.dll": {},
+          "lib/Renci.SshNet.dll": {},
+          "lib/Selenium.Helper.dll": {},
+          "lib/SeleniumExtras.WaitHelpers.dll": {},
+          "lib/System.ValueTuple.dll": {},
+          "lib/Vivo.Common.Fwk.Dll.dll": {},
+          "lib/WebDriver.Support.dll": {},
+          "lib/WebDriver.dll": {},
+          "lib/log4net.dll": {}
+        }
+      },
+      "Vivo.Common.Before/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "System.Security.Cryptography.X509Certificates": "4.3.2",
+          "Vivo.Common.Fwk.Dll": "1.0.34"
+        },
+        "compile": {
+          "bin/placeholder/Vivo.Common.Before.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vivo.Common.Before.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "System.Security.Cryptography.Algorithms/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.Primitives": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Cryptography.Algorithms.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Cryptography.Algorithms.dll": {}
+        }
+      },
+      "System.Security.Cryptography.Encoding/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Security.Cryptography.Encoding.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Security.Cryptography.Encoding.dll": {}
+        }
+      },
+      "System.Security.Cryptography.Primitives/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Security.Cryptography.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Security.Cryptography.Primitives.dll": {}
+        }
+      },
+      "System.Security.Cryptography.X509Certificates/4.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.Algorithms": "4.3.0",
+          "System.Security.Cryptography.Encoding": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Cryptography.X509Certificates.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Cryptography.X509Certificates.dll": {}
+        }
+      },
+      "Vivo.Common.Fwk.Dll/1.0.38": {
+        "type": "package",
+        "compile": {
+          "lib/AutoItX3.Assembly.dll": {},
+          "lib/AutoItX3.dll": {},
+          "lib/AutoItX3_x64.dll": {},
+          "lib/CsvHelper.dll": {},
+          "lib/Direct.Shared.dll": {},
+          "lib/DotNetZip.dll": {},
+          "lib/EPPlus.dll": {},
+          "lib/Infragistics4.Shared.v15.1.dll": {},
+          "lib/Infragistics4.Win.Misc.v15.1.dll": {},
+          "lib/Infragistics4.Win.UltraWinGrid.v15.1.dll": {},
+          "lib/Infragistics4.Win.v15.1.dll": {},
+          "lib/Newtonsoft.Json.dll": {},
+          "lib/Oracle.ManagedDataAccess.dll": {},
+          "lib/Renci.SshNet.dll": {},
+          "lib/Selenium.Helper.dll": {},
+          "lib/SeleniumExtras.WaitHelpers.dll": {},
+          "lib/System.ValueTuple.dll": {},
+          "lib/Vivo.Common.Fwk.Dll.dll": {},
+          "lib/WebDriver.Support.dll": {},
+          "lib/WebDriver.dll": {},
+          "lib/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/AutoItX3.Assembly.dll": {},
+          "lib/AutoItX3.dll": {},
+          "lib/AutoItX3_x64.dll": {},
+          "lib/CsvHelper.dll": {},
+          "lib/Direct.Shared.dll": {},
+          "lib/DotNetZip.dll": {},
+          "lib/EPPlus.dll": {},
+          "lib/Infragistics4.Shared.v15.1.dll": {},
+          "lib/Infragistics4.Win.Misc.v15.1.dll": {},
+          "lib/Infragistics4.Win.UltraWinGrid.v15.1.dll": {},
+          "lib/Infragistics4.Win.v15.1.dll": {},
+          "lib/Newtonsoft.Json.dll": {},
+          "lib/Oracle.ManagedDataAccess.dll": {},
+          "lib/Renci.SshNet.dll": {},
+          "lib/Selenium.Helper.dll": {},
+          "lib/SeleniumExtras.WaitHelpers.dll": {},
+          "lib/System.ValueTuple.dll": {},
+          "lib/Vivo.Common.Fwk.Dll.dll": {},
+          "lib/WebDriver.Support.dll": {},
+          "lib/WebDriver.dll": {},
+          "lib/log4net.dll": {}
+        }
+      },
+      "Vivo.Common.Before/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "System.Security.Cryptography.X509Certificates": "4.3.2",
+          "Vivo.Common.Fwk.Dll": "1.0.34"
+        },
+        "compile": {
+          "bin/placeholder/Vivo.Common.Before.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vivo.Common.Before.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "System.Security.Cryptography.Algorithms/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.Primitives": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Cryptography.Algorithms.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Cryptography.Algorithms.dll": {}
+        }
+      },
+      "System.Security.Cryptography.Encoding/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Security.Cryptography.Encoding.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Security.Cryptography.Encoding.dll": {}
+        }
+      },
+      "System.Security.Cryptography.Primitives/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Security.Cryptography.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Security.Cryptography.Primitives.dll": {}
+        }
+      },
+      "System.Security.Cryptography.X509Certificates/4.3.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.Algorithms": "4.3.0",
+          "System.Security.Cryptography.Encoding": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Security.Cryptography.X509Certificates.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Security.Cryptography.X509Certificates.dll": {}
+        }
+      },
+      "Vivo.Common.Fwk.Dll/1.0.38": {
+        "type": "package",
+        "compile": {
+          "lib/AutoItX3.Assembly.dll": {},
+          "lib/AutoItX3.dll": {},
+          "lib/AutoItX3_x64.dll": {},
+          "lib/CsvHelper.dll": {},
+          "lib/Direct.Shared.dll": {},
+          "lib/DotNetZip.dll": {},
+          "lib/EPPlus.dll": {},
+          "lib/Infragistics4.Shared.v15.1.dll": {},
+          "lib/Infragistics4.Win.Misc.v15.1.dll": {},
+          "lib/Infragistics4.Win.UltraWinGrid.v15.1.dll": {},
+          "lib/Infragistics4.Win.v15.1.dll": {},
+          "lib/Newtonsoft.Json.dll": {},
+          "lib/Oracle.ManagedDataAccess.dll": {},
+          "lib/Renci.SshNet.dll": {},
+          "lib/Selenium.Helper.dll": {},
+          "lib/SeleniumExtras.WaitHelpers.dll": {},
+          "lib/System.ValueTuple.dll": {},
+          "lib/Vivo.Common.Fwk.Dll.dll": {},
+          "lib/WebDriver.Support.dll": {},
+          "lib/WebDriver.dll": {},
+          "lib/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/AutoItX3.Assembly.dll": {},
+          "lib/AutoItX3.dll": {},
+          "lib/AutoItX3_x64.dll": {},
+          "lib/CsvHelper.dll": {},
+          "lib/Direct.Shared.dll": {},
+          "lib/DotNetZip.dll": {},
+          "lib/EPPlus.dll": {},
+          "lib/Infragistics4.Shared.v15.1.dll": {},
+          "lib/Infragistics4.Win.Misc.v15.1.dll": {},
+          "lib/Infragistics4.Win.UltraWinGrid.v15.1.dll": {},
+          "lib/Infragistics4.Win.v15.1.dll": {},
+          "lib/Newtonsoft.Json.dll": {},
+          "lib/Oracle.ManagedDataAccess.dll": {},
+          "lib/Renci.SshNet.dll": {},
+          "lib/Selenium.Helper.dll": {},
+          "lib/SeleniumExtras.WaitHelpers.dll": {},
+          "lib/System.ValueTuple.dll": {},
+          "lib/Vivo.Common.Fwk.Dll.dll": {},
+          "lib/WebDriver.Support.dll": {},
+          "lib/WebDriver.dll": {},
+          "lib/log4net.dll": {}
+        }
+      },
+      "Vivo.Common.Before/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "System.Security.Cryptography.X509Certificates": "4.3.2",
+          "Vivo.Common.Fwk.Dll": "1.0.34"
+        },
+        "compile": {
+          "bin/placeholder/Vivo.Common.Before.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vivo.Common.Before.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.Security.Cryptography.Algorithms/4.3.0": {
+      "sha512": "W1kd2Y8mYSCgc3ULTAZ0hOP2dSdG5YauTb1089T0/kRcN2MpSAW1izOFROrJgxSlMn3ArsgHXagigyi+ibhevg==",
+      "type": "package",
+      "path": "system.security.cryptography.algorithms/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Security.Cryptography.Algorithms.dll",
+        "lib/net461/System.Security.Cryptography.Algorithms.dll",
+        "lib/net463/System.Security.Cryptography.Algorithms.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Security.Cryptography.Algorithms.dll",
+        "ref/net461/System.Security.Cryptography.Algorithms.dll",
+        "ref/net463/System.Security.Cryptography.Algorithms.dll",
+        "ref/netstandard1.3/System.Security.Cryptography.Algorithms.dll",
+        "ref/netstandard1.4/System.Security.Cryptography.Algorithms.dll",
+        "ref/netstandard1.6/System.Security.Cryptography.Algorithms.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/osx/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll",
+        "runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll",
+        "runtimes/win/lib/net46/System.Security.Cryptography.Algorithms.dll",
+        "runtimes/win/lib/net461/System.Security.Cryptography.Algorithms.dll",
+        "runtimes/win/lib/net463/System.Security.Cryptography.Algorithms.dll",
+        "runtimes/win/lib/netcore50/System.Security.Cryptography.Algorithms.dll",
+        "runtimes/win/lib/netstandard1.6/System.Security.Cryptography.Algorithms.dll",
+        "system.security.cryptography.algorithms.4.3.0.nupkg.sha512",
+        "system.security.cryptography.algorithms.nuspec"
+      ]
+    },
+    "System.Security.Cryptography.Encoding/4.3.0": {
+      "sha512": "1DEWjZZly9ae9C79vFwqaO5kaOlI5q+3/55ohmq/7dpDyDfc8lYe7YVxJUZ5MF/NtbkRjwFRo14yM4OEo9EmDw==",
+      "type": "package",
+      "path": "system.security.cryptography.encoding/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Security.Cryptography.Encoding.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Security.Cryptography.Encoding.dll",
+        "ref/netstandard1.3/System.Security.Cryptography.Encoding.dll",
+        "ref/netstandard1.3/System.Security.Cryptography.Encoding.xml",
+        "ref/netstandard1.3/de/System.Security.Cryptography.Encoding.xml",
+        "ref/netstandard1.3/es/System.Security.Cryptography.Encoding.xml",
+        "ref/netstandard1.3/fr/System.Security.Cryptography.Encoding.xml",
+        "ref/netstandard1.3/it/System.Security.Cryptography.Encoding.xml",
+        "ref/netstandard1.3/ja/System.Security.Cryptography.Encoding.xml",
+        "ref/netstandard1.3/ko/System.Security.Cryptography.Encoding.xml",
+        "ref/netstandard1.3/ru/System.Security.Cryptography.Encoding.xml",
+        "ref/netstandard1.3/zh-hans/System.Security.Cryptography.Encoding.xml",
+        "ref/netstandard1.3/zh-hant/System.Security.Cryptography.Encoding.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll",
+        "runtimes/win/lib/net46/System.Security.Cryptography.Encoding.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.Encoding.dll",
+        "system.security.cryptography.encoding.4.3.0.nupkg.sha512",
+        "system.security.cryptography.encoding.nuspec"
+      ]
+    },
+    "System.Security.Cryptography.Primitives/4.3.0": {
+      "sha512": "7bDIyVFNL/xKeFHjhobUAQqSpJq9YTOpbEs6mR233Et01STBMXNAc/V+BM6dwYGc95gVh/Zf+iVXWzj3mE8DWg==",
+      "type": "package",
+      "path": "system.security.cryptography.primitives/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Security.Cryptography.Primitives.dll",
+        "lib/netstandard1.3/System.Security.Cryptography.Primitives.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Security.Cryptography.Primitives.dll",
+        "ref/netstandard1.3/System.Security.Cryptography.Primitives.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.security.cryptography.primitives.4.3.0.nupkg.sha512",
+        "system.security.cryptography.primitives.nuspec"
+      ]
+    },
+    "System.Security.Cryptography.X509Certificates/4.3.2": {
+      "sha512": "uwlfOnvJd7rXRvP3aV126Q9XebIIEGEaZ245Rd5/ZwOg7U7AU+AmpE0vRh2F0DFjfOTuk7MAexv4nYiNP/RYnQ==",
+      "type": "package",
+      "path": "system.security.cryptography.x509certificates/4.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Security.Cryptography.X509Certificates.dll",
+        "lib/net461/System.Security.Cryptography.X509Certificates.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Security.Cryptography.X509Certificates.dll",
+        "ref/net461/System.Security.Cryptography.X509Certificates.dll",
+        "ref/netstandard1.3/System.Security.Cryptography.X509Certificates.dll",
+        "ref/netstandard1.4/System.Security.Cryptography.X509Certificates.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netstandard1.6/System.Security.Cryptography.X509Certificates.dll",
+        "runtimes/win/lib/net46/System.Security.Cryptography.X509Certificates.dll",
+        "runtimes/win/lib/net461/System.Security.Cryptography.X509Certificates.dll",
+        "runtimes/win/lib/netcore50/System.Security.Cryptography.X509Certificates.dll",
+        "runtimes/win/lib/netstandard1.6/System.Security.Cryptography.X509Certificates.dll",
+        "system.security.cryptography.x509certificates.4.3.2.nupkg.sha512",
+        "system.security.cryptography.x509certificates.nuspec"
+      ]
+    },
+    "Vivo.Common.Fwk.Dll/1.0.38": {
+      "sha512": "URqcmQyXZTzfsxVNYzqFpB3XPOIeW22Nl6OmyZfmJlRhEjF5C/ze8t7Uz+ajsCl7ibI1BTcV5hxmQitkug0TXA==",
+      "type": "package",
+      "path": "vivo.common.fwk.dll/1.0.38",
+      "files": [
+        ".nupkg.metadata",
+        "lib/App.Config",
+        "lib/AutoItX3.Assembly.dll",
+        "lib/AutoItX3.dll",
+        "lib/AutoItX3_x64.dll",
+        "lib/CsvHelper.dll",
+        "lib/Direct.Shared.dll",
+        "lib/DotNetZip.dll",
+        "lib/EPPlus.dll",
+        "lib/Infragistics4.Shared.v15.1.dll",
+        "lib/Infragistics4.Win.Misc.v15.1.dll",
+        "lib/Infragistics4.Win.UltraWinGrid.v15.1.dll",
+        "lib/Infragistics4.Win.v15.1.dll",
+        "lib/Newtonsoft.Json.dll",
+        "lib/Oracle.ManagedDataAccess.dll",
+        "lib/Renci.SshNet.dll",
+        "lib/Selenium.Helper.dll",
+        "lib/SeleniumExtras.WaitHelpers.dll",
+        "lib/System.ValueTuple.dll",
+        "lib/Vivo.Common.Fwk.Dll.dll",
+        "lib/Vivo.Common.Fwk.Dll.dll.config",
+        "lib/WebDriver.Support.dll",
+        "lib/WebDriver.dll",
+        "lib/log4net.dll",
+        "vivo.common.fwk.dll.1.0.38.nupkg.sha512",
+        "vivo.common.fwk.dll.nuspec"
+      ]
+    },
+    "Vivo.Common.Before/1.0.0": {
+      "type": "project",
+      "path": "../common-before-dll/Vivo.Common.Before/Vivo.Common.Before/Vivo.Common.Before.csproj",
+      "msbuildProject": "../common-before-dll/Vivo.Common.Before/Vivo.Common.Before/Vivo.Common.Before.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Vivo.Common.Before >= 1.0.0",
+      "Vivo.Common.Fwk.Dll >= 1.0.38"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Inocentini\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico.csproj",
+      "projectName": "Vivo.OV_PendenciamentoAutomatico",
+      "projectPath": "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico.csproj",
+      "packagesPath": "C:\\Users\\Inocentini\\.nuget\\packages\\",
+      "outputPath": "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Inocentini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://10.129.178.173:8082/repository/rpa-componentes-nuget/": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\common-before-dll\\Vivo.Common.Before\\Vivo.Common.Before\\Vivo.Common.Before.csproj": {
+              "projectPath": "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\common-before-dll\\Vivo.Common.Before\\Vivo.Common.Before\\Vivo.Common.Before.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "Vivo.Common.Fwk.Dll": {
+            "target": "Package",
+            "version": "[1.0.38, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

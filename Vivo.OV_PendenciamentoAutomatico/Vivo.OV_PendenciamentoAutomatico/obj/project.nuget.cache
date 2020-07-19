@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "Dra/rMGUp/OSU3jYYoQ5ei20Lb6kXjPlHkUHO0Bv7Qkz+V5RkSh+mVQEWyBIN1yNn2TSxZqN/MuJLZU6l84//w==",
+  "success": true,
+  "projectFilePath": "E:\\Inocentini\\Documents\\Dev\\operador-virtual-pendenciamento-automatico-dll\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico\\Vivo.OV_PendenciamentoAutomatico.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Inocentini\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0\\system.security.cryptography.algorithms.4.3.0.nupkg.sha512",
+    "C:\\Users\\Inocentini\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0\\system.security.cryptography.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\Inocentini\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\system.security.cryptography.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Inocentini\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.2\\system.security.cryptography.x509certificates.4.3.2.nupkg.sha512",
+    "C:\\Users\\Inocentini\\.nuget\\packages\\vivo.common.fwk.dll\\1.0.38\\vivo.common.fwk.dll.1.0.38.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Vivo.OV_PendenciamentoAutomatico.Dll</id>
+    <version>1.0.0</version>
+    <title>Vivo.OV_PendenciamentoAutomatico.Dll</title>
+    <authors>Telefonica</authors>
+    <owners>Telefonica</owners>
+    <description>Vivo.OV_PendenciamentoAutomatico.Dll</description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+	<file src="Vivo.OV_PendenciamentoAutomatico\bin\Release\*.dll" exclude="**\*.pdb" target="lib" />
+  </files>
+</package>
